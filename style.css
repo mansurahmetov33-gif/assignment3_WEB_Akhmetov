@@ -1,0 +1,201 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #ccd3dc;
+    color: #212529;
+}
+
+section {
+    padding: 40px;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.boxes {
+    display: flex;
+    gap: 20px;
+}
+
+.box {
+    flex: 1;
+    padding: 30px;
+    background-color: white;
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0);
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.box:hover {
+    transform: translateY(-3px);
+    transition: 0.2s;
+}
+
+#task4 {
+    margin-top: 60px;
+    background-color: #ccd3dc;
+}
+
+#task4 h1 {
+    margin-bottom: 30px;
+}
+
+#task4 .card {
+    padding: 10px;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    transition: 0.2s;
+}
+
+#task4 .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+#task4 .card-title {
+    font-size: 24px;
+}
+
+#task4 .card-text {
+    font-size: 16px;
+}
+
+.sidebar {
+    padding: 30px;
+    background-color: #f8f9fa;
+    border-radius: 12px;
+    border: 1px solid #dee2e6;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+}
+
+.sidebar h2 {
+    margin-bottom: 20px;
+}
+
+.sidebar h3 {
+    margin-top: 25px;
+}
+
+.sidebar p {
+    font-size: 16px;
+}
+
+.portfolio-footer {
+    padding: 30px;
+    text-align: center;
+    background-color: #212529;
+    color: white;
+}
+
+.portfolio-footer p {
+    margin: 0;
+    font-size: 15px;
+}
+
+@media (max-width: 1024px) {
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .boxes {
+        flex-wrap: wrap;
+    }
+
+    .box {
+        flex: 0 0 calc(50% - 10px);
+        box-sizing: border-box;
+    }
+
+    #task4 {
+        margin-top: 40px;
+    }
+
+    #task4 h1 {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+
+    .sidebar {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    section {
+        padding: 25px 15px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .boxes {
+        flex-direction: column;
+    }
+
+    .box {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    #task4 {
+        margin-top: 30px;
+    }
+
+    #task4 h1 {
+        font-size: 26px;
+    }
+
+    #task4 .card {
+        padding: 5px;
+    }
+
+    #task4 .card-title {
+        font-size: 20px;
+    }
+
+    .sidebar {
+        margin-top: 20px;
+        padding: 15px;
+    }
+
+    .portfolio-footer {
+        padding: 20px;
+        font-size: 14px;
+    }
+}
